@@ -1,0 +1,34 @@
+{
+  "name": "denmark-cvr-neo4j",
+  "version": "0.0.0",
+  "description": "Graph representation of http://datacvr.virk.dk/ in Neo4j",
+  "main": "index.js",
+  "bin": {
+    "denmark-cvr-replicate": "replicate.js"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilbayes/denmark-cvr-neo4j.git"
+  },
+  "keywords": [
+    "neo4j",
+    "cvr",
+    "graph",
+    "business",
+    "hack",
+    "investors",
+    "executives"
+  ],
+  "author": "Emil Bay <github@tixz.dk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilbayes/denmark-cvr-neo4j/issues"
+  },
+  "homepage": "https://github.com/emilbayes/denmark-cvr-neo4j#readme",
+  "devDependencies": {
+    "standard": "^5.3.1"
+  }
+}
