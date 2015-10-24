@@ -38,7 +38,9 @@ LICENSE
 -------
 
 [ISC](LICENSE)
+
 Be aware that collecting the data puts a lot of pressure on Virk.dk's
 Elastic Search database.
+
 If you use this project for anything useful, don't hesitate to get in touch,
 I'd love to hear what you've come up with.
