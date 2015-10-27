@@ -20,8 +20,19 @@ This project attempts to model CVR data as a graph, permitting queries such as:
 Usage
 -----
 
-This project depends on Node.js and Neo4j. I has included an optional Dockerfile
-which allows you to use Neo4j without installing it on your local machine.
+This project depends on Node.js and Neo4j. First you need to replicate the CVR
+Elastic server. This done by running:
+
+```sh
+node bin/replicate cvr-replica
+```
+
+This will create a [LevelDB](http://leveldb.org/) in `cvr-replica`.
+LevelDB will compress the contents using the snappy compression algorithm.
+On my machine a full replica, as of 2015-10-25, is 8.3GB while compressed in LevelDB.
+
+To run the Neo4j server, I have included an optional Dockerfile which allows you
+to run the database in a Docker container.
 
 To start the neo4j docker image run:
 
